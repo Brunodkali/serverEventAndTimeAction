@@ -1,0 +1,21 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "brunodkali <duartebruno581@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
